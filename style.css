@@ -6,7 +6,7 @@
 */
 
 * {
-    font-family: Helvetica !important;
+    font-family: Helvetica, Arial !important;
 }
 
 body {
@@ -28,8 +28,32 @@ body {
     margin-left: auto;   
 }
 
+.cover {
+    background-image: url(images/desertbg.jpg);
+    background-size:cover;
+    background-position: center;
+    color: #fff;
+    text-shadow:1px 2px #000;
+}
+
+.cover p {
+    font-size: 13pt;
+}
+
 footer .btn-info {
     margin-top: -6px; 
+}
+
+.small {
+    font-size: 12pt !important;   
+}
+
+.front-img {
+    border-radius: 30px;   
+}
+
+.space {
+    height: 40px;   
 }
 
 ul {
