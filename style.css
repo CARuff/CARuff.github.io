@@ -15,7 +15,7 @@ body {
 }
 
 .front p {
-    font-size: 12pt;  
+    font-size: 12pt !important;  
     font-weight: 100;
 }
 
