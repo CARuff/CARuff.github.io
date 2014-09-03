@@ -140,7 +140,7 @@ the interior design program at Arizona State University</li>
     <footer>
           <p class="pull-right">
               <a class="btn btn-info" href="http://www.linkedin.com/pub/charlene-ruff/5b/a26/b77">LinkedIn</a>
-              <a class="btn btn-info" href="#">Top</a>
+              <a class="btn btn-info back-to-top" href="#">Top</a>
           </p>
           &copy; Charlene Ruff 2014
     </footer>
@@ -152,5 +152,17 @@ the interior design program at Arizona State University</li>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function() {
+        var duration = 1000;
+
+        jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+            })
+        });
+    </script>
   </body>
 </html>
